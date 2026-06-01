@@ -18,9 +18,20 @@ body:
   - type: markdown
     attributes:
       value: |
+        ### Description
+  - type: textarea
+    id: url
+    attributes:
+      label: Game URL
+      description: Provide a link of where the game can be obtained. (No piracy!)
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
         ### WAD Version
   - type: dropdown
-    id: platform
+    id: wad
     attributes:
       label: WAD Version
       multiple: false
