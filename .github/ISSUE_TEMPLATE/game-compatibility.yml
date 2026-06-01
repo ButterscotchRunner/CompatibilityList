@@ -1,0 +1,58 @@
+name: Compatibility Report
+description: Report how GameMaker games work in Butterscotch
+title: "GAME NAME HERE"
+labels: []
+assignees: ["MrPowerGamerBR"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Description
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a description of what happens when running the game in Butterscotch describing the issues that you found (or the lack thereof). If possible, include screenshots comparing issues between the original runner vs Butterscotch.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### WAD Version
+  - type: dropdown
+    id: platform
+    attributes:
+      label: WAD Version
+      multiple: false
+      description: Select the WAD version of the game.
+      options:
+        - WAD Version 8
+        - WAD Version 9
+        - WAD Version 10
+        - WAD Version 11
+        - WAD Version 12
+        - WAD Version 13
+        - WAD Version 14
+        - WAD Version 15
+        - WAD Version 16
+        - WAD Version 17
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Tested on
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Butterscotch Target
+      multiple: true
+      description: Select the platform that you tried using to run the game.
+      options:
+        - Desktop (Windows, macOS, Linux)
+        - Web (WASM)
+        - PlayStation 2
+        - PlayStation 3
+        - Another unofficial port
+    validations:
+      required: true
