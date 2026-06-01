@@ -2,7 +2,6 @@ name: Compatibility Report
 description: Report how GameMaker games work in Butterscotch
 title: "GAME NAME HERE"
 labels: []
-assignees: ["MrPowerGamerBR"]
 body:
   - type: markdown
     attributes:
