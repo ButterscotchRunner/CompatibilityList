@@ -34,8 +34,8 @@ body:
     id: wad
     attributes:
       label: WAD Version
-      multiple: false
-      description: Select the WAD version of the game.
+      multiple: true
+      description: Select the WAD version of the game. Can be multiple if the game has multiple different versions.
       options:
         - WAD Version 8
         - WAD Version 9
