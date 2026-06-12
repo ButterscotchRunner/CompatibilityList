@@ -60,6 +60,7 @@ body:
       description: Select the platform that you tried using to run the game.
       options:
         - Desktop (Windows, macOS, Linux)
+        - Android
         - Web (WASM)
         - PlayStation 2
         - PlayStation 3
